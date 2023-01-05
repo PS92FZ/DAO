@@ -81,57 +81,7 @@ increase the tax rate for the community pool.
 
 # Liquid Staking
 
-Some things must be addressed, or it would be better to not have liquid
-staking at all.
-
-* governance centralization
-* leveraged short risk
-* other risks
-
-We already deal with centralization risk with the validator set; and it's a
-problem that hasn't materialized yet, but persists. We should
-not add to this problem. Yet, this is what would happen if liquid staking
-becomes a competition of features & RoI. Something should exist in code to
-successfully mitigate the risks of governance takeover by a remote zone,
-through staked interchain accounts; whether it be taxes levied for interchain
-account staking as proposed in ATOM ONE, or ICS hosted security of well proven
-and audited application logic. The Cosmos Hub could incentivize the
-development of liquid staking systems to consider them for official adoption 
-via ICS. By running trusted code with ICS, we mitigate the governance takeover
-risk.
-
-The benefit of running features like liquid staking over ICS is that the
-Cosmos Hub validators control whether the application is updated or logic
-changed, and it doesn't require trusting a third party validator set. So it 
-would be strictly more secure for interchain accounts to be restricted to ICS1
-hosted zones.
-
-There are still risks associated with the usage of liquid staking tokens in
-financial markets. The value of liquid staking tokens may go to zero at any
-time according to the validator (or an employee or associate of the 
-validator). Liquid staking tokens used in conjunction with leverage and 
-shorting markets would incentivize self sabotage. We don't know of all the 
-ways in which liquid staking can cause harm, or bring about systemic risk. 
-We must incentivize the study of liquid staking and understand the risks, 
-and possibly even implement self-regulation of different asset classes, 
-before liquid staking can be freely offered for the Cosmos Hub.
-
-Until we can mitigate all of these concerns, we recommend we hard-cap the
-amount of liquid staking through interchain accounts at 20% of stake, and
-to then implement a self adjusting tax system to keep interchain accounts 
-at 20% of stake. This is a short term solution. Then, much later, we can 
-choose to adopt a liquid staking module in IBC, and reward the project 
-whose implementation is chosen with the funds accrued for this purpose in 
-the proposed community pool budget (or other system, possibly a special 
-purpose treasury DAO).
-
-We should also implement a self-regulatory framework by classifying tokens
-according to qualities such as liquid staking tokens, which we argue shouldn't
-be shorted with leverage to prevent self-sabotage.
-
-We can do all of these things, take time to study the risks associated with
-liquid staking, and still incentivize its development through the community
-pool.
+Get rid of liquid staking, specifically on the Cosmos Hub, entirely.
 
 
 # Governance
